@@ -1,6 +1,7 @@
 # SeatingArrangment
 
 **Problem Description**
+
 The goal of this project is to optimize the seating arrangement for a group of attendees at an event, taking into account potential conflicts between individuals. The problem can be formulated as follows:
 
 **Given**
@@ -11,6 +12,7 @@ A conflict matrix that represents the potential conflicts between pairs of atten
 The objective is to find an optimal seating arrangement that minimizes the total number of conflicts among the attendees.
 
 **Solution Approach**
+
 The solution to this problem involves the following steps:
 
 Generate Initial Seating Order: The initial seating order is generated randomly, assigning each attendee to a seat in the seating arrangement.
