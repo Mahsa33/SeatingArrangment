@@ -16,7 +16,11 @@ The objective is to find an optimal seating arrangement that minimizes the total
 The solution to this problem involves the following steps:
 
 Generate Initial Seating Order: The initial seating order is generated randomly, assigning each attendee to a seat in the seating arrangement.
+
 Analyze Seating Order Conflicts: The function analyze_seating_order_conflicts takes the current seating order and the conflict matrix, and calculates the number of conflicts for each seat in the arrangement.
+
 Update Seating Order: The function update_seating_order identifies the incompatible pairs of attendees (based on the conflict matrix) and swaps the seats of the conflicting attendees to reduce the total number of conflicts.
+
 Iterative Optimization: The process of analyzing the seating order conflicts and updating the seating order is repeated in an iterative manner until a satisfactory solution is found.
-Optimization with  MLP: The seating order conflicts are used as input to a MLP model, which is trained to minimize the total number of conflicts. The updated seating order is then used to update the model parameters.
+
+Optimization with  MLP: The seating order conflicts are used as input to an MLP model, which is trained to minimize the total number of conflicts. The updated seating order is then used to update the model parameters.
